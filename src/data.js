@@ -54,7 +54,7 @@ export const skillGroups = [
   {
     name: 'AI & Machine Learning',
     icon: 'potion',
-    items: ['LLM App Development', 'PyTorch', 'Neural Networks', 'ML Pipelines', 'Predictive Analytics'],
+    items: ['LLM App Development', 'OpenAI API', 'Claude API', 'PyTorch', 'Neural Networks', 'ML Pipelines', 'Predictive Analytics'],
   },
   {
     name: 'Cloud & Platforms',
