@@ -136,6 +136,21 @@ const ICONS = {
       '....kk....',
     ],
   },
+  potion: {
+    pal: { k: '#2a1640', g: '#b18f58', p: '#9b3fd6', P: '#d98cff', w: '#ffffff' },
+    grid: [
+      '....kk....',
+      '....gg....',
+      '....kk....',
+      '...kppk...',
+      '..kpPPpk..',
+      '.kpPwPPpk.',
+      '.kpPPPPpk.',
+      '.kpPPPPpk.',
+      '..kppppk..',
+      '...kkkk...',
+    ],
+  },
   torch: {
     pal: { y: '#ffb321', O: '#fff4b0', b: '#6e5530' },
     grid: [

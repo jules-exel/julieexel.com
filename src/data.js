@@ -14,11 +14,13 @@ export const profile = {
     'Experienced in designing and implementing RESTful and GraphQL APIs, third-party integrations, and event-driven architectures to enable seamless system communication. Strong background in cloud-native design (AWS & Azure), containerization, and CI/CD pipelines to accelerate delivery and improve reliability.',
     'A collaborative technical leader and mentor who guides teams in API-first development, domain-driven design, and best practices in security and observability. Industry experience includes finance, natural gas, insurance, and aviation.',
   ],
-  industries: ['Finance', 'Natural Gas', 'Insurance', 'Aviation'],
+  industries: ['Finance', 'Natural Gas', 'Insurance', 'Aviation', 'AI / LLM Development'],
+  resume: '/Julie-Exel-Resume.pdf',
 };
 
 export const splashes = [
   '18+ years of XP!',
+  'Now with LLMs!',
   'Now with GraphQL!',
   'AWS Certified!',
   'Also try Kafka!',
@@ -47,7 +49,12 @@ export const skillGroups = [
   {
     name: 'Frameworks & Tools',
     icon: 'table',
-    items: ['React', 'Next.js', 'Angular', 'Vue.js', 'Spring Boot', 'Laravel', 'Tailwind', 'PyTorch'],
+    items: ['React', 'Next.js', 'Angular', 'Vue.js', 'Spring Boot', 'Laravel', 'Tailwind'],
+  },
+  {
+    name: 'AI & Machine Learning',
+    icon: 'potion',
+    items: ['LLM App Development', 'PyTorch', 'Neural Networks', 'ML Pipelines', 'Predictive Analytics'],
   },
   {
     name: 'Cloud & Platforms',

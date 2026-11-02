@@ -77,6 +77,10 @@ export default function TitleScreen({ night, onToggleNight }) {
               <span className="btn-sub">{m.sub}</span>
             </a>
           ))}
+          <a className="mc-btn" href={profile.resume} download>
+            Download Resume
+            <span className="btn-sub">PDF</span>
+          </a>
           <div className="menu-row">
             <a className="mc-btn half" href="#achievements">Achievements</a>
             <a className="mc-btn half" href={profile.github} target="_blank" rel="noreferrer">GitHub</a>

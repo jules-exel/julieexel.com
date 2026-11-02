@@ -273,6 +273,14 @@ export function Contact() {
       </div>
       <div className="gui panel server-list">
         <div className="server">
+          <PixelIcon name="book" size={40} />
+          <div className="server-info">
+            <div className="server-name">Resume</div>
+            <span className="server-addr">PDF · 2 pages</span>
+          </div>
+          <a className="mc-btn small" href={profile.resume} download>Download</a>
+        </div>
+        <div className="server">
           <PixelIcon name="map" size={40} />
           <div className="server-info">
             <div className="server-name">Email</div>
